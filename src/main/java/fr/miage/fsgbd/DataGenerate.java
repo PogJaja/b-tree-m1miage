@@ -5,6 +5,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * Creates a data.txt file, the values printed can be configured in DataCreator.
+ */
+
 public class DataGenerate {
     public static void main(String[] args) throws IOException {
         FileWriter filewriter = new FileWriter("data.txt", true);
